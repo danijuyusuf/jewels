@@ -13,7 +13,7 @@ gem "font-awesome-rails"
 gem "animate-rails"
 
 group :development, :test do
-  gem "rspec"
+  gem "rspec-rails", "~> 3.0"
   gem "sqlite3"
   gem "byebug"
   gem "pry"
