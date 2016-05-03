@@ -27,11 +27,10 @@ ActiveRecord::Schema.define(version: 20160503205114) do
     t.string   "firstname"
     t.string   "lastname"
     t.string   "email"
-    t.boolean  "super",                 default: false
-    t.string   "password"
-    t.string   "password_confirmation"
-    t.datetime "created_at",                            null: false
-    t.datetime "updated_at",                            null: false
+    t.boolean  "super",           default: false
+    t.string   "password_digest"
+    t.datetime "created_at",                      null: false
+    t.datetime "updated_at",                      null: false
   end
 
   create_table "offerings", force: :cascade do |t|

@@ -5,8 +5,7 @@ class CreateModerators < ActiveRecord::Migration[5.0]
       t.string :lastname
       t.string :email
       t.boolean :super, default: 0
-      t.string :password
-      t.string :password_confirmation
+      t.string :password_digest
 
       t.timestamps
     end
