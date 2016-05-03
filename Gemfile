@@ -5,13 +5,11 @@ gem "puma"
 gem "sass-rails", "~> 5.0"
 gem "uglifier", ">= 1.3.0"
 gem "coffee-rails", "~> 4.1.0"
-gem "materialize-sass"
-# See https://github.com/rails/execjs#readme for more supported runtimes
-# gem 'therubyracer', platforms: :ruby
-
+gem "bootstrap-sass", "~> 3.3.6"
 gem "jquery-rails"
 gem "turbolinks", "~> 5.x"
 gem "jbuilder", "~> 2.0"
+gem "font-awesome-rails"
 
 group :development, :test do
   gem "rspec"
