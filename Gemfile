@@ -11,6 +11,9 @@ gem "turbolinks", "~> 5.x"
 gem "jbuilder", "~> 2.0"
 gem "font-awesome-rails"
 gem "animate-rails"
+gem "jquery-easing-rails"
+gem "fittextjs_rails"
+gem "wow-rails"
 
 group :development, :test do
   gem "rspec-rails", "~> 3.0"

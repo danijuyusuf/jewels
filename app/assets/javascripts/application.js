@@ -12,6 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery.easing
+//= require fittext
+//= require wow
 //= require bootstrap-sprockets
 //= require turbolinks
 //= require_tree .
