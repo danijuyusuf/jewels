@@ -11,13 +11,27 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160503170351) do
+ActiveRecord::Schema.define(version: 20160503205114) do
 
   create_table "departments", force: :cascade do |t|
     t.string   "name"
     t.text     "description"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
+    t.integer  "moderator_id"
+  end
+
+  add_index "departments", ["moderator_id"], name: "index_departments_on_moderator_id"
+
+  create_table "moderators", force: :cascade do |t|
+    t.string   "firstname"
+    t.string   "lastname"
+    t.string   "email"
+    t.boolean  "super",                 default: false
+    t.string   "password"
+    t.string   "password_confirmation"
+    t.datetime "created_at",                            null: false
+    t.datetime "updated_at",                            null: false
   end
 
   create_table "offerings", force: :cascade do |t|

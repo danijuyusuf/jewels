@@ -14,6 +14,7 @@ gem "animate-rails"
 gem "jquery-easing-rails"
 gem "fittextjs_rails"
 gem "wow-rails"
+gem "bcrypt"
 
 group :development, :test do
   gem "rspec-rails", "~> 3.0"
