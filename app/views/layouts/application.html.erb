@@ -2,6 +2,9 @@
 <html>
   <head>
     <title>Jewels</title>
+    <% flash.each do |key, value| %>
+      <div class="alert alert-<%= key %>"><%= value %></div>
+    <% end %>
     <%= csrf_meta_tags %>
     <%= action_cable_meta_tag %>
 

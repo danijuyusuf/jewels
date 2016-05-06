@@ -8,7 +8,7 @@ class SessionsController < ApplicationController
       session[:current_moderator_id] = moderator.id
       redirect_to current_moderator
     else
-      flash[:error] = "Username or Password Incorrect"
+      flash.now[:error] = "Username or Password Incorrect"
       render :new
     end
   end
