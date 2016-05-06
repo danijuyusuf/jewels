@@ -1,0 +1,457 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/ydaniju/Documents/pps/jewels/spec/controllers/moderators_controller_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/spec/rails_helper.rb": [
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/config/environment.rb": [
+        null,
+        1,
+        null,
+        null,
+        1
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/config/application.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/config/boot.rb": [
+        1,
+        null,
+        1
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/config/environments/test.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/config/initializers/active_record_belongs_to_required_by_default.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        1
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/config/initializers/application_controller_renderer.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/config/initializers/assets.rb": [
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/config/initializers/backtrace_silencers.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/config/initializers/callback_terminator.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        1
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/config/initializers/cookies_serializer.rb": [
+        null,
+        null,
+        null,
+        null,
+        1
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/config/initializers/filter_parameter_logging.rb": [
+        null,
+        null,
+        null,
+        1
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/config/initializers/inflections.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/config/initializers/mime_types.rb": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/config/initializers/per_form_csrf_tokens.rb": [
+        null,
+        null,
+        null,
+        1
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/config/initializers/request_forgery_protection.rb": [
+        null,
+        null,
+        null,
+        1
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/config/initializers/session_store.rb": [
+        null,
+        null,
+        1
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/config/initializers/wrap_parameters.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/app/channels/application_cable/channel.rb": [
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/app/channels/application_cable/connection.rb": [
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/app/controllers/application_controller.rb": [
+        1,
+        null,
+        null,
+        1,
+        null
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/app/helpers/homes_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/app/helpers/moderators_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/app/controllers/homes_controller.rb": [
+        1,
+        null
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/app/controllers/moderators_controller.rb": [
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/app/jobs/application_job.rb": [
+        1,
+        null
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/app/mailers/application_mailer.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/app/models/department.rb": [
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/app/models/moderator.rb": [
+        1,
+        1,
+        1,
+        null,
+        1,
+        null
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/app/models/offering.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/spec/factories/departments.rb": [
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/spec/factories/moderators.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/spec/factories/offerings.rb": [
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/config/routes.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/spec/helpers/moderators_helper_spec.rb": [
+        1,
+        null,
+        1,
+        null
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/spec/models/department_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        2,
+        null,
+        1,
+        2,
+        2,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        2,
+        null,
+        null
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/spec/models/moderator_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        2,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        2,
+        null,
+        null
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/spec/models/offering_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        2,
+        2,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        2,
+        2,
+        null,
+        null
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/spec/views/moderators/new.html.erb_spec.rb": [
+        1,
+        null,
+        1,
+        null
+      ]
+    },
+    "timestamp": 1462537155
+  }
+}

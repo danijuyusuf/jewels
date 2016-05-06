@@ -15,9 +15,15 @@ gem "jquery-easing-rails"
 gem "fittextjs_rails"
 gem "wow-rails"
 gem "bcrypt"
+gem "coveralls", require: false
 
 group :development, :test do
-  gem "rspec-rails", "~> 3.0"
+  %w[rspec-core rspec-expectations rspec-mocks rspec-rails rspec-support].
+    each do |lib|
+    gem lib, git: "https://github.com/rspec/#{lib}.git", branch: "master"
+  end
+  gem "factory_girl_rails"
+  gem "faker"
   gem "sqlite3"
   gem "byebug"
   gem "pry"
