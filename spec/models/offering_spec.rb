@@ -8,24 +8,14 @@ RSpec.describe Offering, type: :model do
 
   context " #initialize with department_id" do
     let(:mod) do
-      Moderator.create(
-        firstname: "Yusuf",
-        lastname: "Daniju",
-        email: "danijuyusuf@gmail.com",
-        password: "aaaaaaa",
-        password_confirmation: "aaaaaaa"
-      )
+      create(:moderator)
     end
 
     let(:dept) do
-      Department.create(
-        name: "hath",
-        description: "making",
-        moderator_id: mod.id
-      )
+      create(:department, moderator_id: mod.id)
     end
 
-    let(:subject) { Offering.new(department_id: dept.id) }
+    let(:subject) { create(:offering, department_id: dept.id) }
     it { is_expected.to be_valid }
   end
 end
