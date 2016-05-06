@@ -261,6 +261,10 @@
         1,
         null
       ],
+      "/Users/ydaniju/Documents/pps/jewels/app/helpers/sessions_helper.rb": [
+        1,
+        null
+      ],
       "/Users/ydaniju/Documents/pps/jewels/app/controllers/homes_controller.rb": [
         1,
         null
@@ -298,6 +302,10 @@
         null,
         null,
         null,
+        null
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/app/controllers/sessions_controller.rb": [
+        1,
         null
       ],
       "/Users/ydaniju/Documents/pps/jewels/app/jobs/application_job.rb": [
@@ -368,7 +376,19 @@
         1,
         null
       ],
+      "/Users/ydaniju/Documents/pps/jewels/spec/controllers/sessions_controller_spec.rb": [
+        1,
+        null,
+        1,
+        null
+      ],
       "/Users/ydaniju/Documents/pps/jewels/spec/helpers/moderators_helper_spec.rb": [
+        1,
+        null,
+        1,
+        null
+      ],
+      "/Users/ydaniju/Documents/pps/jewels/spec/helpers/sessions_helper_spec.rb": [
         1,
         null,
         1,
@@ -446,6 +466,6 @@
         null
       ]
     },
-    "timestamp": 1462538268
+    "timestamp": 1462559038
   }
 }
