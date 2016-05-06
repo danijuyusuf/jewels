@@ -1,4 +1,5 @@
 class ModeratorsController < ApplicationController
+  before_filter :verify_login, only: [:show]
   def new
     @moderator = Moderator.new
   end

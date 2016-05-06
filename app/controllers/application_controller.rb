@@ -1,5 +1,18 @@
 class ApplicationController < ActionController::Base
-  # Prevent CSRF attacks by raising an exception.
-  # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
+  before_action :log_in
+
+  def verify_login
+    redirect_to root_path unless current_moderator.id
+  end
+
+  def log_in
+    current_moderator
+  end
+
+  def current_moderator
+    Moderator.find_by(
+      id: session[:current_moderator_id]
+    )
+  end
 end
