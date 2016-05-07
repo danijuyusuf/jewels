@@ -15,6 +15,7 @@ gem "jquery-easing-rails"
 gem "fittextjs_rails"
 gem "wow-rails"
 gem "bcrypt"
+gem "rails-controller-testing"
 gem "coveralls", require: false
 
 group :development, :test do

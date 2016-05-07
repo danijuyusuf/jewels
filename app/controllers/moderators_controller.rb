@@ -1,5 +1,5 @@
 class ModeratorsController < ApplicationController
-  before_filter :verify_login, only: [:show]
+  before_action :verify_login, only: [:show]
 
   def new
     @moderator = Moderator.new
@@ -8,7 +8,7 @@ class ModeratorsController < ApplicationController
   def create
     @moderator = Moderator.new(moderator_params)
     if @moderator.save
-      session[:current_moderator_id] = moderator.id
+      session[:current_moderator_id] = @moderator.id
       flash[:success] = "Moderator #{@moderator.firstname} created!"
       redirect_to @moderator
     else
