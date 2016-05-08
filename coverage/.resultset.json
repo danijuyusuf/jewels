@@ -304,7 +304,7 @@
         null,
         null,
         1,
-        2,
+        3,
         null,
         null,
         null,
@@ -358,10 +358,10 @@
         null,
         null,
         1,
+        3,
+        3,
         2,
         2,
-        1,
-        1,
         null,
         1,
         1,
@@ -369,9 +369,9 @@
         null,
         null,
         1,
-        0,
-        0,
-        0,
+        1,
+        1,
+        1,
         null,
         null
       ],
@@ -442,6 +442,7 @@
         1,
         1,
         1,
+        1,
         null
       ],
       "/Users/ydaniju/Documents/pps/jewels/spec/controllers/sessions_controller_spec.rb": [
@@ -490,6 +491,32 @@
         null,
         1,
         null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
         null,
         null,
         null
@@ -578,6 +605,6 @@
         null
       ]
     },
-    "timestamp": 1462731653
+    "timestamp": 1462744542
   }
 }

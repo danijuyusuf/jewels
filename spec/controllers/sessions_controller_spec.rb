@@ -45,4 +45,30 @@ RSpec.describe SessionsController, type: :controller do
       end
     end
   end
+
+  describe "DELETE" do
+    let(:mod) do
+      create(:moderator)
+    end
+
+    before(:each) do
+      allow_any_instance_of(ApplicationController).
+        to receive(:params).and_return(session: mod)
+    end
+
+    before do
+      allow_any_instance_of(Moderator).
+        to receive(:authenticate).and_return(true)
+    end
+
+    it "redirects moderator to app root on logout" do
+      post :create, params: { moderator: {
+        email: mod.email,
+        password: mod.password
+      } }
+
+      delete :destroy, params: { id: mod.id }
+      expect(response).to redirect_to(root_path)
+    end
+  end
 end
