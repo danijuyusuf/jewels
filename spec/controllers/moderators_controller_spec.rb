@@ -44,14 +44,23 @@ RSpec.describe ModeratorsController, type: :controller do
       create(:moderator)
     end
 
-    before(:each) do
-      allow_any_instance_of(ApplicationController).
-        to receive(:current_moderator).and_return(mod)
+    context "if logged moderator" do
+      before do
+        allow_any_instance_of(ApplicationController).
+          to receive(:current_moderator).and_return(mod)
+      end
+
+      it "renders show page" do
+        get :show, params: { id: mod.id }
+        expect(response).to render_template("moderators/show")
+      end
     end
 
-    it "renders show page" do
-      get :show, id: mod.id
-      expect(response).to render_template("moderators/show")
+    context "if not logged in" do
+      it "renders login page" do
+        get :show, params: { id: mod.id }
+        expect(response).to redirect_to(new_session_path)
+      end
     end
   end
 end
