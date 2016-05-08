@@ -13,13 +13,7 @@ RSpec.describe Moderator, type: :model do
 
   context "#initialize rightly" do
     let(:subject) do
-      Moderator.create(
-        firstname: "Yusuf",
-        lastname: "Daniju",
-        email: "danijuyusuf@gmail.com",
-        password: "aaaaaaa",
-        password_confirmation: "aaaaaaa"
-      )
+      create(:moderator)
     end
     it { is_expected.to be_valid }
   end
