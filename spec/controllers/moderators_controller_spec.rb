@@ -44,7 +44,7 @@ RSpec.describe ModeratorsController, type: :controller do
       create(:moderator)
     end
 
-    context "if logged moderator" do
+    context "if logged in moderator" do
       before do
         allow_any_instance_of(ApplicationController).
           to receive(:current_moderator).and_return(mod)
