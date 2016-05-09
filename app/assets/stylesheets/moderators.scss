@@ -13,17 +13,21 @@ body {
   text-align: center;
   letter-spacing: 2px;
 }
+
 .pen-title h1 {
   margin: 0 0 20px;
   font-size: 48px;
   font-weight: 300;
 }
+
 .pen-title span {
   font-size: 12px;
 }
+
 .pen-title span .fa {
   color: #33b5e5;
 }
+
 .pen-title span a {
   color: #33b5e5;
   font-weight: 600;
@@ -33,13 +37,14 @@ body {
 /* Form Module */
 .form-module {
   position: relative;
-  background: #ffffff;
+  background: $pure-white;
   max-width: 320px;
   width: 100%;
   border-top: 5px solid #33b5e5;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
   margin: 0 auto;
 }
+
 .form-module .toggle {
   cursor: pointer;
   position: absolute;
@@ -49,11 +54,12 @@ body {
   width: 30px;
   height: 30px;
   margin: -5px 0 0;
-  color: #ffffff;
+  color: $pure-white;
   font-size: 12px;
   line-height: 30px;
   text-align: center;
 }
+
 .form-module .toggle .tooltip {
   position: absolute;
   top: 5px;
@@ -66,6 +72,7 @@ body {
   line-height: 1;
   text-transform: uppercase;
 }
+
 .form-module .toggle .tooltip:before {
   content: '';
   position: absolute;
@@ -76,13 +83,16 @@ body {
   border-bottom: 5px solid transparent;
   border-right: 5px solid rgba(0, 0, 0, 0.6);
 }
+
 .form-module .form {
   display: none;
   padding: 40px;
 }
+
 .form-module .form:nth-child(2) {
   display: block;
 }
+
 .form-module h2 {
   margin: 0 0 20px;
   color: #33b5e5;
@@ -90,6 +100,7 @@ body {
   font-weight: 400;
   line-height: 1;
 }
+
 .form-module input {
   outline: none;
   display: block;
@@ -102,23 +113,27 @@ body {
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }
+
 .form-module input:focus {
   border: 1px solid #33b5e5;
   color: #333333;
 }
+
 .form-module button {
   cursor: pointer;
   background: #33b5e5;
   width: 100%;
   border: 0;
   padding: 10px 15px;
-  color: #ffffff;
+  color: $pure-white;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }
+
 .form-module button:hover {
   background: #178ab4;
 }
+
 .form-module .cta {
   background: #f2f2f2;
   width: 100%;
@@ -128,28 +143,29 @@ body {
   font-size: 12px;
   text-align: center;
 }
+
 .form-module .cta a {
   color: #333333;
   text-decoration: none;
 }
 
 .navbar-static-top.dashboard {
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
 
 i {
-  font-size:16px;
+  font-size: 16px;
 }
 
 .nav.dashboard > li > a {
-  color:#787878;
+  color: #787878;
 }
   
 footer.dashboard {
-  margin-top:20px;
-  padding-top:20px;
-  padding-bottom:20px;
-  background-color:#efefef;
+  background-color: $ee-ef;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 /* count indicator near icons */
@@ -158,8 +174,8 @@ footer.dashboard {
   bottom: 12px;
   right: 6px;
   font-size: 9px;
-  background: rgba(51,200,51,0.55);
-  color: rgba(255,255,255,0.9);
+  background: rgba(51, 200, 51, 0.55);
+  color: rgba(255, 255, 255, 0.9);
   line-height: 1em;
   padding: 2px 4px;
   -webkit-border-radius: 10px;
@@ -168,4 +184,3 @@ footer.dashboard {
   -o-border-radius: 10px;
   border-radius: 10px;
 }
-
