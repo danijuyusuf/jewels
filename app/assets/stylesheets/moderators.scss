@@ -150,22 +150,22 @@ body {
 }
 
 .navbar-static-top.dashboard {
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
 
 i {
-  font-size:16px;
+  font-size: 16px;
 }
 
 .nav.dashboard > li > a {
-  color:#787878;
+  color: #787878;
 }
   
 footer.dashboard {
-  margin-top:20px;
-  padding-top:20px;
-  padding-bottom:20px;
-  background-color:#efefef;
+  background-color: $ee-ef;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 /* count indicator near icons */
@@ -184,4 +184,3 @@ footer.dashboard {
   -o-border-radius: 10px;
   border-radius: 10px;
 }
-
