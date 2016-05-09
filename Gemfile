@@ -17,6 +17,7 @@ gem "wow-rails"
 gem "bcrypt"
 gem "rails-controller-testing"
 gem "coveralls", require: false
+gem "scss-lint"
 
 group :development, :test do
   %w[rspec-core rspec-expectations rspec-mocks rspec-rails rspec-support].
